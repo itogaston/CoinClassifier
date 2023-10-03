@@ -15,14 +15,14 @@ This repository contains the implementation and documentation of a Euro coin val
   - [VGG16.hdf5](models/VGG16.hdf5)
 
 - **notebooks/:** This directory is dedicated to Jupyter Notebooks for specific tasks.
-  - [data_preprocessing.ipynb](notebooks/data_preprocessing.ipynb): Notebook for preprocessing the dataset.
-  - [model_training.ipynb](notebooks/model_training.ipynb): Notebook for training models.
+  - [dataPreprocessing.ipynb](notebooks/dataPreprocessing.ipynb): Notebook for preprocessing the dataset.
+  - [gimnasio.ipynb](notebooks/gimnasio.ipynb): Notebook for training models.
   - [ensemble.ipynb](notebooks/ensemble.ipynb): Notebook for combining model predictions.
 
 - **results/:** Holds the output files, such as [predictions.csv](results/predictions.csv).
 
 - **docs/:** Contains documentation files, including essays and benchmarks.
-  - [Clasificación_de_monedas.pdf](docs/Clasificación_de_monedas.pdf): An essay explaining the project.
+  - [Clasificación de monedas.pdf](docs/Clasificación%20de%20monedas.pdf): An essay explaining the project.
   - [Benchmarks.pdf](docs/Benchmarks.pdf): Benchmark of the models trained.
 
 ## Usage
@@ -33,7 +33,7 @@ This repository contains the implementation and documentation of a Euro coin val
    cd CoinClassifier
    ```
 
-2. Set up your Python environment with the required dependencies, including a deep learning framework like TensorFlow or PyTorch.
+2. Set up your Python environment with the required dependencies.
 
 3. Follow the Jupyter Notebooks (`dataPreprocessing.ipynb`, `gimnasio.ipynb`, `ensemble.ipynb`) to preprocess data, train models, and make predictions.
 
