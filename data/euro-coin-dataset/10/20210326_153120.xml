@@ -1,0 +1,26 @@
+<annotation>
+	<folder>mixed</folder>
+	<filename>20210326_153120.jpg</filename>
+	<path>/home/superdiodo/University/APMS/euro-coin-dataset/mixed/20210326_153120.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>747</width>
+		<height>747</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>10</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>25</xmin>
+			<ymin>35</ymin>
+			<xmax>712</xmax>
+			<ymax>719</ymax>
+		</bndbox>
+	</object>
+</annotation>
