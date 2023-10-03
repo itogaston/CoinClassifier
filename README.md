@@ -39,6 +39,10 @@ This repository contains the implementation and documentation of a Euro coin val
 
 4. Explore the `models/` directory to access pre-trained model weights.
 
+## Kaggle Competition
+
+This project was developed as part of a Kaggle competition for a computer vision university course in 2022 and achieved first place. You can find the Kaggle competition page [here](https://www.kaggle.com/competitions/vision-artificial-upna2021-clasificacion-monedas).
+
 ## Contributions
 
 Contributions and improvements to this project are welcome. If you'd like to enhance the classifier's accuracy or functionality, please fork this repository, make your changes, and submit a pull request.
