@@ -39,6 +39,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
-## Acknowledgments
-
 I would like to express my sincere appreciation to [Iris Dominguez Catena](https://www.unavarra.es/pdi?uid=811899), a dedicated and knowledgeable professor who provided invaluable guidance and mentorship throughout the development of this project. Her expertise in computer vision and deep learning played a crucial role in shaping the project's success.
