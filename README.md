@@ -1,26 +1,36 @@
 # Euro Coin Value Classifier
 
-This repository contains the implementation and documentation of a Euro coin value classifier developed for a computer vision university course project in 2022. The project aims to accurately classify Euro coins into their respective denominations, including 1 Euro, 2 Euros, 50 Cents, 20 Cents, 10 Cents...
+This repository contains the implementation and documentation of a Euro coin value classifier developed for a computer vision university course project in 2022. The project aims to accurately classify Euro coins into their respective denominations.
 
 ## Project Structure
 
-- [Clasificación de monedas.pdf](Clasificación%20de%20monedas.pdf): An essay explaining the project's processes and results.
-- [Benchmarks.pdf](Benchmarks.pdf): Benchmark results of some models considered for the project.
-- [dataPreprocessing.ipynb](dataPreprocessing.ipynb): Jupyter Notebook for preprocessing the dataset, including provided images and additional images collected from a GitHub repository.
-- [gimnasio.ipynb](gimnasio.ipynb): Jupyter Notebook for training models using transfer learning and other techniques.
-- [ensemble.ipynb](ensemble.ipynb): Jupyter Notebook for combining model predictions and making predictions on the test image group.
-- [models/](models/): Folder containing the three best-performing models.
+- **data/:** Contains the training and test images used in the project.
+  - `train/`: Training images for model development and fine-tuning.
+  - `public_test/`: Test images for evaluating the model's performance.
+  - `euro-coin-dataset`: Images taken from [euro-coin-dataset](https://github.com/SuperDiodo/euro-coin-dataset) to improve the accuracy of the models
+
+- **models/:** Contains the best-performing model weights.
   - [DenseNet121.hdf5](models/DenseNet121.hdf5)
   - [DenseNet169.hdf5](models/DenseNet169.hdf5)
   - [VGG16.hdf5](models/VGG16.hdf5)
-- [predictions.csv](predictions.csv): CSV file containing the predictions made with `ensemble.ipynb`.
+
+- **notebooks/:** This directory is dedicated to Jupyter Notebooks for specific tasks.
+  - [data_preprocessing.ipynb](notebooks/data_preprocessing.ipynb): Notebook for preprocessing the dataset.
+  - [model_training.ipynb](notebooks/model_training.ipynb): Notebook for training models.
+  - [ensemble.ipynb](notebooks/ensemble.ipynb): Notebook for combining model predictions.
+
+- **results/:** Holds the output files, such as [predictions.csv](results/predictions.csv).
+
+- **docs/:** Contains documentation files, including essays and benchmarks.
+  - [Clasificación_de_monedas.pdf](docs/Clasificación_de_monedas.pdf): An essay explaining the project.
+  - [Benchmarks.pdf](docs/Benchmarks.pdf): Benchmark of the models trained.
 
 ## Usage
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/coin-value-classifier.git
-   cd coin-value-classifier
+   git clone https://github.com/itogaston/CoinClassifier.git
+   cd CoinClassifier
    ```
 
 2. Set up your Python environment with the required dependencies, including a deep learning framework like TensorFlow or PyTorch.
